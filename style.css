@@ -1,119 +1,131 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: Comic Sans MS, Comic Sans, cursive ;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
-.container{
+
+.container {
     margin-right: 100px;
     margin-left: 100px;
 }
 
 /* header section */
-.header{
+.header {
     height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    background-color: rgb(204,204,204);
-    
-}
-#header-contenet{
-    margin-left: 30px;
-    margin-right: 30px;
+    justify-content: space-around;
+    background-color: rgb(204, 204, 204);
+
+
 }
 
-.login{
+
+.login {
     margin-left: 80px;
     font-size: x-small;
-    background-color: rgb(43,120,228);
-    border-color: rgb(43,120,228);
+    background-color: rgb(43, 120, 228);
+    border-color: rgb(43, 120, 228);
     color: white;
     width: 44px;
     box-shadow: 2px 2px black;
 }
+
 /* column section */
-.columns{
+.columns {
     width: 100%px;
     height: 400px;
 
     display: flex;
     align-items: start;
 
-    
+
 }
+
 /* left boxs */
-.left-column{
+.left-column {
 
     height: 100%;
     width: 60%;
     margin-left: 150px;
 }
-.left-box{
+
+.left-box {
     width: 450px;
     height: 150px;
     border: 5px solid black;
     margin: 20px;
 
 }
-.left-box-main{
-    
+
+.left-box-main {
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.left-box-info{
+
+.left-box-info {
     width: 30%;
     height: 150px;
 }
-.definition-subject{
+
+.definition-subject {
     margin-left: 35px;
-    margin-top: 20px;    
+    margin-top: 20px;
 }
-.part-of-speech{
+
+.part-of-speech {
     font-style: italic;
-    margin-left:50px;
+    margin-left: 50px;
 }
-.plural{
+
+.plural {
     font-style: italic;
     margin-left: 30px;
     margin-top: 5px;
 }
-.likes{
+
+.likes {
     width: 50px;
     margin-left: 50px;
 
     margin-top: 10px;
-    background-color: rgb(255,217,102);
+    background-color: rgb(255, 217, 102);
     color: black;
     border-color: black;
-    box-shadow: 1px 1px black ;
+    box-shadow: 1px 1px black;
 }
+
 /* right column */
-.right-column{
+.right-column {
     width: 40%;
     height: 100%;
     margin-right: 150px;
 
 
 }
-.right-box{
+
+.right-box {
     width: 170px;
     height: 120px;
     border: 5px solid black;
     margin: 20px;
-    margin-left:0 ;
+    margin-left: 0;
     font-size: medium;
     font-weight: bold;
 
 }
-.add-def-box{
+
+.add-def-box {
     margin: 20px;
     margin-bottom: 0;
 }
-.add-def{
-    margin-left:38px;
+
+.add-def {
+    margin-left: 38px;
     margin-top: 10px;
-    background-color: rgb(147,196,125);
+    background-color: rgb(147, 196, 125);
     box-shadow: 1px 1px black;
 }
